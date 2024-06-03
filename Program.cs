@@ -23,7 +23,7 @@ var summaries = new[]
 
 app.MapGet("/weatherforecast", () =>
     {
-        throw new Exception("This is an exception!");
+        //throw new Exception("This is an exception!");
         var forecast = Enumerable.Range(1, 10).Select(index =>
                 new WeatherForecast
                 (
